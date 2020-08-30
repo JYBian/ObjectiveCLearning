@@ -18,6 +18,17 @@ int main(int argc, const char * argv[]) {
         
         NSDate *futureDate = [NSDate distantFuture];
         NSLog(@"futureDate = %@", futureDate);
+        
+        NSDate *pastDate = [NSDate distantPast];
+        NSLog(@"futureDate = %@", pastDate);
+        
+        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+        formatter.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+        NSString *dateStr = [formatter stringFromDate:date];
+        NSLog(@"dateStr = %@", dateStr);
+        
+        NSDate *newDate2 = [formatter dateFromString:dateStr];
+        NSLog(@"newDate = %@", newDate2);
     }
     return 0;
 }
