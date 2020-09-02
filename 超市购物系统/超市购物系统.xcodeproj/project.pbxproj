@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A92E6F3124FF748400E172CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F3024FF748400E172CE /* main.m */; };
+		A92E6F3924FF753100E172CE /* SuperMarket.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F3824FF753100E172CE /* SuperMarket.m */; };
+		A92E6F3C24FF753A00E172CE /* Shelf.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F3B24FF753A00E172CE /* Shelf.m */; };
+		A92E6F3F24FF754D00E172CE /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F3E24FF754D00E172CE /* Goods.m */; };
+		A92E6F4224FF755900E172CE /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F4124FF755900E172CE /* Phone.m */; };
+		A92E6F4524FF755F00E172CE /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F4424FF755F00E172CE /* Pad.m */; };
+		A92E6F4824FF756500E172CE /* Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F4724FF756500E172CE /* Mac.m */; };
+		A92E6F4B24FF756F00E172CE /* Watch.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F4A24FF756F00E172CE /* Watch.m */; };
+		A92E6F4E24FF758200E172CE /* DZFulei.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F4D24FF758200E172CE /* DZFulei.m */; };
+		A92E6F5124FF759600E172CE /* ManJian.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F5024FF759600E172CE /* ManJian.m */; };
+		A92E6F5424FF75AB00E172CE /* BaZhe.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6F5324FF75AB00E172CE /* BaZhe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,26 @@
 /* Begin PBXFileReference section */
 		A92E6F2D24FF748400E172CE /* 超市购物系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "超市购物系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92E6F3024FF748400E172CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A92E6F3724FF753100E172CE /* SuperMarket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperMarket.h; sourceTree = "<group>"; };
+		A92E6F3824FF753100E172CE /* SuperMarket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperMarket.m; sourceTree = "<group>"; };
+		A92E6F3A24FF753A00E172CE /* Shelf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shelf.h; sourceTree = "<group>"; };
+		A92E6F3B24FF753A00E172CE /* Shelf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shelf.m; sourceTree = "<group>"; };
+		A92E6F3D24FF754D00E172CE /* Goods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		A92E6F3E24FF754D00E172CE /* Goods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		A92E6F4024FF755900E172CE /* Phone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		A92E6F4124FF755900E172CE /* Phone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		A92E6F4324FF755F00E172CE /* Pad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pad.h; sourceTree = "<group>"; };
+		A92E6F4424FF755F00E172CE /* Pad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pad.m; sourceTree = "<group>"; };
+		A92E6F4624FF756500E172CE /* Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mac.h; sourceTree = "<group>"; };
+		A92E6F4724FF756500E172CE /* Mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mac.m; sourceTree = "<group>"; };
+		A92E6F4924FF756F00E172CE /* Watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Watch.h; sourceTree = "<group>"; };
+		A92E6F4A24FF756F00E172CE /* Watch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watch.m; sourceTree = "<group>"; };
+		A92E6F4C24FF758200E172CE /* DZFulei.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZFulei.h; sourceTree = "<group>"; };
+		A92E6F4D24FF758200E172CE /* DZFulei.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZFulei.m; sourceTree = "<group>"; };
+		A92E6F4F24FF759600E172CE /* ManJian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManJian.h; sourceTree = "<group>"; };
+		A92E6F5024FF759600E172CE /* ManJian.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManJian.m; sourceTree = "<group>"; };
+		A92E6F5224FF75AB00E172CE /* BaZhe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaZhe.h; sourceTree = "<group>"; };
+		A92E6F5324FF75AB00E172CE /* BaZhe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaZhe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,26 @@
 			isa = PBXGroup;
 			children = (
 				A92E6F3024FF748400E172CE /* main.m */,
+				A92E6F3724FF753100E172CE /* SuperMarket.h */,
+				A92E6F3824FF753100E172CE /* SuperMarket.m */,
+				A92E6F3A24FF753A00E172CE /* Shelf.h */,
+				A92E6F3B24FF753A00E172CE /* Shelf.m */,
+				A92E6F3D24FF754D00E172CE /* Goods.h */,
+				A92E6F3E24FF754D00E172CE /* Goods.m */,
+				A92E6F4024FF755900E172CE /* Phone.h */,
+				A92E6F4124FF755900E172CE /* Phone.m */,
+				A92E6F4324FF755F00E172CE /* Pad.h */,
+				A92E6F4424FF755F00E172CE /* Pad.m */,
+				A92E6F4624FF756500E172CE /* Mac.h */,
+				A92E6F4724FF756500E172CE /* Mac.m */,
+				A92E6F4924FF756F00E172CE /* Watch.h */,
+				A92E6F4A24FF756F00E172CE /* Watch.m */,
+				A92E6F4C24FF758200E172CE /* DZFulei.h */,
+				A92E6F4D24FF758200E172CE /* DZFulei.m */,
+				A92E6F4F24FF759600E172CE /* ManJian.h */,
+				A92E6F5024FF759600E172CE /* ManJian.m */,
+				A92E6F5224FF75AB00E172CE /* BaZhe.h */,
+				A92E6F5324FF75AB00E172CE /* BaZhe.m */,
 			);
 			path = "超市购物系统";
 			sourceTree = "<group>";
@@ -119,7 +169,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92E6F5124FF759600E172CE /* ManJian.m in Sources */,
+				A92E6F4824FF756500E172CE /* Mac.m in Sources */,
+				A92E6F5424FF75AB00E172CE /* BaZhe.m in Sources */,
+				A92E6F4B24FF756F00E172CE /* Watch.m in Sources */,
+				A92E6F3C24FF753A00E172CE /* Shelf.m in Sources */,
+				A92E6F4E24FF758200E172CE /* DZFulei.m in Sources */,
+				A92E6F4224FF755900E172CE /* Phone.m in Sources */,
 				A92E6F3124FF748400E172CE /* main.m in Sources */,
+				A92E6F4524FF755F00E172CE /* Pad.m in Sources */,
+				A92E6F3F24FF754D00E172CE /* Goods.m in Sources */,
+				A92E6F3924FF753100E172CE /* SuperMarket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
